@@ -1,0 +1,49 @@
+  <ion-view>
+    <ion-pane>
+      <ion-header-bar class="pb-header bar-stable">
+        <div class="svg"></div>
+        <div class="pb-navigation">
+            <a href="#" class="home-page-link active">Репертуар</a>
+            <a href="#/raspisanie" class="home-page-link">Расписание</a>
+        </div>
+      </ion-header-bar>
+      <ion-content class="pb-content" >
+        <ion-list class="pb-list">    <!-- список фильмов --> 
+          <ion-item class="pb-list_item" ng-repeat="film in filmlist" ng-class="{active: isGroupShown(film)}">   <!-- карточка фильма -->
+            <div class="pb-poster" ng-click="toggleGroup(film)">
+              <div class="pb-poster_block">
+                <img ng-src="films/posters/{{ film.poster }}" alt="{{ film.title }}">
+              </div>
+            </div>
+            <div class="pb-film">
+              <div class="pb-film_info" on-swipe-left="toggleSeat(film)" on-swipe-right="toggleSeat(film)" ng-class="{active: isSeatShown(film)}">
+                <div class="pb-film_info-left" ng-click="toggleGroup(film)">
+                  <div class="pb-film_title">{{ film.title }}</div>
+                  <ul class="pb-film_tags">
+                    <li ng-repeat="tag in film.tags | limitTo: 3">{{ tag }}</li>
+                  </ul>
+                  <div class="pb-film_duration">{{ film.duration }}</div>
+                </div>
+                <div class="pb-film_info-right">
+                  <ion-scroll class="pb-scroll"> <!-- скролл со временем -->
+                    <ion-item ng-repeat="inf in film.info">
+                      <div class="pb-film_session">
+                        <div class="pb-film_session-price">
+                          {{ inf.price }}<span class="sym_rub">₷</span>
+                        </div>
+                        <div class="pb-film_session-time">
+                          <span class="h">{{ inf.h }}</span><span class="m">{{ inf.m }}</span>
+                        </div>
+                      </div>
+                    </ion-item>
+                  </ion-scroll> <!-- закончили скролл -->
+                </div>
+                <div class="pb-film_change-seat"><a href="#/changeseat">Выбор<br>места</a></div>
+              </div>
+            </div>
+            <div class="pb-film_desc">{{ film.description }}</div>
+          </ion-item>   <!-- карточка фильма конец-->        
+        </ion-list>   <!-- список фильмов конец -->     
+      </ion-content>
+    </ion-pane>
+  </ion-view>

@@ -1,0 +1,299 @@
+[
+	{
+		"stage" : "1",
+		"seat" : [
+			{
+				"num" : "1",
+				"vacant" : true
+			},
+			{
+				"num" : "2",
+				"vacant" : true
+			},
+			{
+				"num" : "3",
+				"vacant" : true
+			},
+			{
+				"num" : "4",
+				"vacant" : true
+			},
+			{
+				"num" : "5",
+				"vacant" : true
+			},
+			{
+				"num" : "6",
+				"vacant" : true
+			}			,
+			{
+				"num" : "7",
+				"vacant" : true
+			}			,
+			{
+				"num" : "8",
+				"vacant" : true
+			}			,
+			{
+				"num" : "9",
+				"vacant" : true
+			},
+			{
+				"num" : "10",
+				"vacant" : true
+			},
+			{
+				"num" : "11",
+				"vacant" : true
+			},
+			{
+				"num" : "12",
+				"vacant" : true
+			},
+			{
+				"num" : "13",
+				"vacant" : true
+			},
+			{
+				"num" : "14",
+				"vacant" : true
+			},
+			{
+				"num" : "15",
+				"vacant" : true
+			}
+		]
+	},
+	{
+		"stage" : "2",
+		"seat" : [
+			{
+				"num" : "1",
+				"vacant" : true
+			},
+			{
+				"num" : "2",
+				"vacant" : true
+			},
+			{
+				"num" : "3",
+				"vacant" : true
+			},
+			{
+				"num" : "4",
+				"vacant" : true
+			},
+			{
+				"num" : "5",
+				"vacant" : true
+			},
+			{
+				"num" : "6",
+				"vacant" : true
+			}			,
+			{
+				"num" : "7",
+				"vacant" : true
+			}			,
+			{
+				"num" : "8",
+				"vacant" : true
+			}			,
+			{
+				"num" : "9",
+				"vacant" : true
+			},
+			{
+				"num" : "10",
+				"vacant" : true
+			},
+			{
+				"num" : "11",
+				"vacant" : true
+			},
+			{
+				"num" : "12",
+				"vacant" : false
+			},
+			{
+				"num" : "13",
+				"vacant" : false
+			},
+			{
+				"num" : "14",
+				"vacant" : false
+			},
+			{
+				"num" : "15",
+				"vacant" : false
+			}
+		]
+	},
+	{
+		"stage" : "3",
+		"seat" : [
+			{
+				"num" : "1",
+				"vacant" : true
+			},
+			{
+				"num" : "2",
+				"vacant" : true
+			},
+			{
+				"num" : "3",
+				"vacant" : true
+			},
+			{
+				"num" : "4",
+				"vacant" : false
+			},
+			{
+				"num" : "5",
+				"vacant" : true
+			},
+			{
+				"num" : "6",
+				"vacant" : false
+			}			,
+			{
+				"num" : "7",
+				"vacant" : false
+			}			,
+			{
+				"num" : "8",
+				"vacant" : true
+			}			,
+			{
+				"num" : "9",
+				"vacant" : true
+			},
+			{
+				"num" : "10",
+				"vacant" : true
+			},
+			{
+				"num" : "11",
+				"vacant" : true
+			},
+			{
+				"num" : "12",
+				"vacant" : true
+			},
+			{
+				"num" : "13",
+				"vacant" : true
+			},
+			{
+				"num" : "14",
+				"vacant" : true
+			}
+		]
+	},
+	{
+		"stage" : "4",
+		"seat" : [
+			{
+				"num" : "1",
+				"vacant" : false
+			},
+			{
+				"num" : "2",
+				"vacant" : false
+			},
+			{
+				"num" : "3",
+				"vacant" : false
+			},
+			{
+				"num" : "4",
+				"vacant" : false
+			},
+			{
+				"num" : "5",
+				"vacant" : true
+			},
+			{
+				"num" : "6",
+				"vacant" : true
+			}			,
+			{
+				"num" : "7",
+				"vacant" : true
+			}			,
+			{
+				"num" : "8",
+				"vacant" : true
+			}			,
+			{
+				"num" : "9",
+				"vacant" : true
+			},
+			{
+				"num" : "10",
+				"vacant" : true
+			},
+			{
+				"num" : "11",
+				"vacant" : true
+			},
+			{
+				"num" : "12",
+				"vacant" : true
+			},
+			{
+				"num" : "13",
+				"vacant" : true
+			},
+			{
+				"num" : "14",
+				"vacant" : true
+			}
+		]
+	},
+	{
+		"stage" : "5",
+		"seat" : [
+			{
+				"num" : "1",
+				"vacant" : true
+			},
+			{
+				"num" : "2",
+				"vacant" : true
+			},
+			{
+				"num" : "3",
+				"vacant" : true
+			},
+			{
+				"num" : "4",
+				"vacant" : true
+			},
+			{
+				"num" : "5",
+				"vacant" : true
+			},
+			{
+				"num" : "6",
+				"vacant" : true
+			}			,
+			{
+				"num" : "7",
+				"vacant" : true
+			}			,
+			{
+				"num" : "8",
+				"vacant" : true
+			}			,
+			{
+				"num" : "9",
+				"vacant" : true
+			},
+			{
+				"num" : "10",
+				"vacant" : false
+			}
+		]
+	}
+]

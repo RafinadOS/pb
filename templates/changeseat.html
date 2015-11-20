@@ -1,0 +1,48 @@
+<ion-view>
+	<ion-pane>
+      <ion-header-bar class="pb-header bar-stable pb-header-shdw">
+        <div class="svg">
+        </div>
+        <div class="pb-navigation">
+            <a href="#/repertuar" class="home-page-link home-page-link-full active">Покупка билетов</a>
+        </div>
+      </ion-header-bar>
+	<ion-content class="pb-content">
+	<div class="zal">
+	<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In  -->
+	<svg version="1.1"
+		 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		 x="0px" y="0px" width="100%" height="100%" viewBox="0 0 90% 100%" style="enable-background:new 0 0 90% 100%;"
+		 xml:space="preserve">
+		<style type="text/css">
+			.st0{fill:url(#SVGID_1_);}
+			.st1{fill:#19A4D7;}
+			.st2{fill:#E6E6E6;}
+			.st3{fill:url(#SVGID_2_);}
+		</style>
+		<defs>
+		</defs>
+		<g>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="41.9804" y1="32.5509" x2="53.3946" y2="21.1366">
+				<stop  offset="0" style="stop-color:#FFCE00"/>
+				<stop  offset="1" style="stop-color:#FF3641"/>
+			</linearGradient>
+			<g ng-repeat="seats in zalseats">
+
+			<rect 	ng-repeat="seat in seats.seat"
+					id="x{{ seat.num }}y{{ seats.stage }}" 
+					x="{{ (((100 / seats.seat.length) * seat.num) - ((100 / seats.seat.length) * 0.5)) - (((100 / seats.seat.length) / 100) * 12) }}%" 
+					y="{{ seats.stage * 20}}" 
+					width="12px" height="12px" 
+					class="{{ vacant }}" 
+					rx="2px"
+					ng-init="vacant = seat.vacant ? 'st2' : 'st1'"
+					st="{{ vacant }}"
+			/>
+			</g>
+		</g>
+		</svg>
+		</div>
+		</ion-content>
+	</ion-pane>
+</ion-view>

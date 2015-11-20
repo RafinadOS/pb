@@ -1,0 +1,230 @@
+[
+	{
+		"zal" : [
+					{
+						"stage" : "1",
+						"num" : "1",
+						"vacant" : true
+					},
+					{
+						"stage" : "1",
+						"num" : "2",
+						"vacant" : true
+					},
+					{
+						"stage" : "1",
+						"num" : "3",
+						"vacant" : true
+					},
+					{
+						"stage" : "1",
+						"num" : "4",
+						"vacant" : true
+					},
+					{
+						"stage" : "1",
+						"num" : "5",
+						"vacant" : true
+					},
+					{
+						"stage" : "1",
+						"num" : "6",
+						"vacant" : true
+					},
+					{
+						"stage" : "1",
+						"num" : "7",
+						"vacant" : true
+					},
+					{
+						"stage" : "1",
+						"num" : "8",
+						"vacant" : true
+					},
+					{
+						"stage" : "1",
+						"num" : "9",
+						"vacant" : true
+					},
+					{
+						"stage" : "1",
+						"num" : "10",
+						"vacant" : true
+					},
+					{
+						"stage" : "2",
+						"num" : "1",
+						"vacant" : true
+					},
+					{
+						"stage" : "2",
+						"num" : "2",
+						"vacant" : true
+					},
+					{
+						"stage" : "2",
+						"num" : "3",
+						"vacant" : true
+					},
+					{
+						"stage" : "2",
+						"num" : "4",
+						"vacant" : true
+					},
+					{
+						"stage" : "2",
+						"num" : "5",
+						"vacant" : true
+					},
+					{
+						"stage" : "2",
+						"num" : "6",
+						"vacant" : true
+					},
+					{
+						"stage" : "2",
+						"num" : "7",
+						"vacant" : true
+					},
+					{
+						"stage" : "2",
+						"num" : "8",
+						"vacant" : true
+					},
+					{
+						"stage" : "2",
+						"num" : "9",
+						"vacant" : true
+					},
+					{
+						"stage" : "2",
+						"num" : "10",
+						"vacant" : true
+					},
+					{
+						"stage" : "3",
+						"num" : "1",
+						"vacant" : true
+					},
+					{
+						"stage" : "3",
+						"num" : "2",
+						"vacant" : true
+					},
+					{
+						"stage" : "3",
+						"num" : "3",
+						"vacant" : true
+					},
+					{
+						"stage" : "3",
+						"num" : "4",
+						"vacant" : true
+					},
+					{
+						"stage" : "3",
+						"num" : "5",
+						"vacant" : true
+					},
+					{
+						"stage" : "3",
+						"num" : "6",
+						"vacant" : true
+					},
+					{
+						"stage" : "3",
+						"num" : "7",
+						"vacant" : true
+					},
+					{
+						"stage" : "3",
+						"num" : "8",
+						"vacant" : true
+					},
+					{
+						"stage" : "3",
+						"num" : "9",
+						"vacant" : true
+					},
+					{
+						"stage" : "3",
+						"num" : "10",
+						"vacant" : true
+					},
+					{
+						"stage" : "4",
+						"num" : "1",
+						"vacant" : true
+					},
+					{
+						"stage" : "4",
+						"num" : "2",
+						"vacant" : true
+					},
+					{
+						"stage" : "4",
+						"num" : "3",
+						"vacant" : true
+					},
+					{
+						"stage" : "4",
+						"num" : "4",
+						"vacant" : true
+					},
+					{
+						"stage" : "4",
+						"num" : "5",
+						"vacant" : true
+					},
+					{
+						"stage" : "4",
+						"num" : "6",
+						"vacant" : true
+					},
+					{
+						"stage" : "4",
+						"num" : "7",
+						"vacant" : true
+					},
+					{
+						"stage" : "4",
+						"num" : "8",
+						"vacant" : true
+					},
+					{
+						"stage" : "4",
+						"num" : "9",
+						"vacant" : true
+					},
+					{
+						"stage" : "4",
+						"num" : "10",
+						"vacant" : true
+					},
+
+
+
+
+
+					{
+						"stage" : "5",
+						"num" : "1",
+						"vacant" : true
+					},
+					{
+						"stage" : "5",
+						"num" : "2",
+						"vacant" : true
+					}, {
+						"stage" : "5",
+						"num" : "3",
+						"vacant" : true
+					},
+					{
+						"stage" : "5",
+						"num" : "4",
+						"vacant" : true
+					}
+				]
+	}
+]

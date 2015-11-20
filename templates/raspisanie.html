@@ -1,0 +1,55 @@
+  <ion-view>
+    <ion-pane>
+      <ion-header-bar class="pb-header bar-stable pb-header-raspisanie">
+        <div class="svg">
+        </div>
+        <div class="pb-navigation">
+            <a href="#/repertuar" class="home-page-link">Репертуар</a>
+            <a href="" class="home-page-link active">Расписание</a>
+        </div>
+        <ion-scroll direction="x" class="pb-scroll_time">
+          <div class="pb-scroll_time_item">9<span>00</span></div>
+          <div class="pb-scroll_time_item">10<span>00</span></div>
+          <div class="pb-scroll_time_item">11<span>00</span></div>
+          <div class="pb-scroll_time_item">12<span>00</span></div>
+          <div class="pb-scroll_time_item">13<span>00</span></div>
+          <div class="pb-scroll_time_item">14<span>00</span></div>
+          <div class="pb-scroll_time_item">15<span>00</span></div>
+          <div class="pb-scroll_time_item">16<span>00</span></div>
+          <div class="pb-scroll_time_item">17<span>00</span></div>
+          <div class="pb-scroll_time_item">18<span>00</span></div>
+          <div class="pb-scroll_time_item">19<span>00</span></div>
+          <div class="pb-scroll_time_item">20<span>00</span></div>
+          <div class="pb-scroll_time_item">21<span>00</span></div>
+          <div class="pb-scroll_time_item">22<span>00</span></div>
+          <div class="pb-scroll_time_item">23<span>00</span></div>
+        </ion-scroll>
+      </ion-header-bar>
+      <ion-content class="pb-content pb-content-raspisanie">
+        <ion-list class="pb-list">    <!-- список ВРЕМЕНИ с фильмамим --> 
+          <ion-item class="pb-time" ng-repeat="time in filmlisttime">   <!-- конкретное время для фильмов -->
+            <div class="pb-time_title" ng-repeat="tm in time.time">
+              {{ tm.h }}<span>{{ tm.m }}</span>
+            </div>
+            <div class="pb-time_film" ng-repeat="film in time.films"> <!-- список фильмов в текущем времени -->
+              <div class="pb-time_film-left">
+                {{ film.price }}<span class="sym_rub">₷</span>
+              </div>
+              <div class="pb-time_film-right">
+                <div class="pb-time_film-poster">
+                  <img ng-src="films/posters/m/{{ film.poster }}" alt="{{ film.title }}">
+                </div>
+                <div class="pb-time_film-info">
+                  <div class="pb-time_film-title">{{ film.title }}</div>
+                  <ul class="pb-time_film-tags">
+                    <li ng-repeat="tag in film.tags | limitTo: 3">{{ tag }}</li>
+                  </ul>
+                  <div class="pb-time_film-duration">{{ film.duration }}</div>
+                </div>
+              </div><!-- {{ film.title }} -->
+            </div>
+          </ion-item>   <!-- конкретное время для фильмов-->        
+        </ion-list>   <!-- список ВРЕМЕНИ с фильмамим -->     
+      </ion-content>
+    </ion-pane>
+  </ion-view>
